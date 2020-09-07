@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css"></link>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
@@ -21,6 +22,7 @@
     <title>Kalashnikov Clowns | Theatrical Comedy</title>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom.css">
     <meta name="name" content="The Kalashnikov Clowns | Theatrical Russian clowning">
@@ -29,19 +31,23 @@
 </head>
 <body>
     <div class="container">
+       <div id="topPane"class="top-pane">
         <div class="header-pane">
             <span><img src="images/Logo.png" alt="Kalashnikov Clowns a theatrical comedy troupe" class="img-fluid"></span><span></span>
         </div>
-        <div class="content-pane">
+        <div id="cententPane" class="content-pane">
             <!-- Content Goes Here -->
           <div class="row">
             <span><img src="images/Bubble-ishus.png" alt="This is Bubble-ishus"></span><span><div class="AboutBox"><div class="about-text"><h1 class="clown-text">About Us</h1><p>This is about us text. I'll write it later.</p></div></div></span>
           </div>
         </div>
-        <div class="buttons-pane">
+       </div>
+        <div id="buttonsPane" class="buttons-pane">
             <!-- Buttons Go here -->
-            <div class="ctaBtns row">
-            <button class="ctaBtn"><img src="images/ShowBusiness.png" alt="Click Here for the Business" aria-label="The Business" class="img-fluid"></button><button class="ctaBtn"><img src="images/CourtOrderedBlog.png" alt="The Court Ordered Blog" class="img-fluid" aria-label="Court Ordered Blog"></button><button class="ctaBtn"><img src="images/WritingRoom.png" alt="The Writing Room" class="img-fluid" aria-label="The Writing Room"></button>
+            <div class="ctaBtns">
+            <a href="business.html"><button class="ctaBtn"><img src="images/ShowBusiness.png" alt="Click Here to get the Business" aria-label="The Business" class="img-fluid"></button></a>
+            <a href="blog.html"><button class="ctaBtn"><img src="images/CourtOrderedBlog.png" alt="The Court Ordered Blog" class="img-fluid" aria-label="Court Ordered Blog"></button></a>
+            <a href="writing.html"><button class="ctaBtn"><img src="images/WritingRoom.png" alt="The Writing Room" class="img-fluid" aria-label="The Writing Room"></button></a>
             </div>
         </div>
         <div class="showshow-pane">
