@@ -1,6 +1,8 @@
 // Image slideshow
 
-const rotatingImgs = document.getElementById("slideshow").querySelector("img");
+var navItems = ['Home', 'Characters',  'Booking', 'Tip Jar']
+
+const rotatingImgs = document.getElementsByClassName('slide-img');
 let i = 0;
 
 setInterval(function(){
