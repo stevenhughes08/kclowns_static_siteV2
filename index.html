@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="css/normalize.css"></link>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -12,11 +13,14 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156420443-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'UA-156420443-1');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156420443-1');
     </script>
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
     <title>Kalashnikov Clowns | Theatrical Comedy</title>
@@ -25,55 +29,104 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="name" content="The Kalashnikov Clowns | Theatrical Russian clowning">
-    <meta name="keywords" content="clown, clowning, comedy, funny, humor, Russia, cirque, theatre, comedian, art, paint, Louisville, Ky, Louisville Ky, Ohio Valley, Kentucky Comedy, Louisville Comedy, Indiana comedy, silly, Chicago Comedy, Nashville Comedy, Nashville TN, Nashville, art, independant, punk, punk humor, original comedy, bluegrass, singing comedian, Russian Comedy, what is funny in russia, dancing bears, bears, russian, theatrical, theatre, Nashville Theatre, Chicago Theatre, Lousville Theatre, Emoji, wrinkles, slipknot, tiktok, clown emoji, meme, Kentucky, Tennesee, Indiana, Mike Pence, Ohio, Cincy comedy, The King of Comedy, Elizabethtown Theatre, lexington comedy club, stand up comedy, Improv, improv comedy, Bowling Green Ky, Evansville In, Elect a clown expect a circus, circus, sideshow, burlesque, sideshow collectibles, sideshow bob, sideshow mel, bozo the clown, insane clown posse, Slava Polunin, snow show, blue humor, dirty, dirty comedy, vodka, alcohol, bar band, weird, keep louisville weird, keep nashville weird, keep lexington weird" />
-    <meta name="description" content="Theatrical Russian Style Clowning"/>
+    <meta name="keywords" content="clown, clowning, comedy, funny, humor, Russia, cirque, theatre, comedian, art, paint, Louisville, Ky, Ohio Valley, Kentucky Comedy, Louisville Comedy, Indiana comedy, silly, Chicago Comedy, Nashville Comedy, Nashville TN, Nashville, art, independant, punk, punk humor, original comedy, bluegrass, singing comedian, Russian Comedy, what is funny in russia, dancing bears, bears, russian, theatrical, theatre, Nashville Theatre, Chicago Theatre, Lousville Theatre, Emoji, wrinkles, slipknot, tiktok, clown emoji, meme, Kentucky, Tennesee, Indiana, Mike Pence, Ohio, Cincy comedy, The King of Comedy, Elizabethtown Theatre, lexington comedy club, stand up comedy, Improv, improv comedy, Bowling Green Ky, Evansville In, Elect a clown expect a circus, circus, sideshow, burlesque, sideshow collectibles, sideshow bob, sideshow mel, bozo the clown, insane clown posse, Slava Polunin, snow show, blue humor, dirty, dirty comedy, vodka, alcohol, bar band, weird, keep louisville weird, keep nashville weird, keep lexington weird"
+    />
+    <meta name="description" content="Theatrical Russian Style Clowning" />
+
 </head>
+
 <body>
     <div class="container">
-       <div id="topPane"class="top-pane">
-        <div class="header-pane">
-            <span><img src="images/Logo.png" alt="Kalashnikov Clowns a theatrical comedy troupe" class="img-fluid"></span><span></span>
-        </div>
-        <div id="menuPane" class="menu-pane">
-        <button class="menu-toggle">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-        </button>
-        <nav><ul class="menu-popover"><li>Home</li><li>Characters</li><li>Shows</li><li></li></ul></div></nav>
-        <div id="cententPane" class="content-pane">
-            <!-- Content Goes Here -->
-          <div class="row">
-            <span class="col character"><img src="images/Bubble-ishus.png" alt="This is Bubble-ishus"></span><span class="col"><div class="AboutBox"><div class="about-text"><h1 class="clown-text">About Us</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare leo vel aliquet congue. Cras vulputate nunc non venenatis tincidunt. Suspendisse ornare molestie arcu sit amet varius. Sed leo eros, accumsan vitae vulputate vitae, blandit eget massa. Pellentesque mattis suscipit libero, sit amet posuere felis dapibus at. Vivamus dignissim mauris sit amet diam vehicula ornare. Aenean vitae condimentum lorem. Nulla eu accumsan eros, nec pretium mauris. Aliquam purus velit, porttitor et nibh a, suscipit faucibus nunc. Cras in magna dui. Fusce congue tortor vitae efficitur dictum.
+        <div class="container-wrapper">
+            <div id="topPane" class="top-pane">
+                <div class="top-pane-wrapper">
+                    <div class="header-pane">
+                        <div class="hamburger-button"><i id="burgerBtn" class="fa fa-bars"></i></div>
+                        <span><img src="images/Logo.png" alt="Kalashnikov Clowns a theatrical comedy troupe" class="img-fluid"></span><span></span>
+                    </div>
+                    <div id="menuPane" class="menu-pane">
+                        <div class="hamburgerBtn"><i class="fa fa-bars"></i></div>
+                        <div class="menu">
+                            <!-- <img id="menu-bg" src="images/clownHouse.jpg" alt="House" aria-label="the clown house"> -->
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Characters</a></li>
+                                <li><a href="">Activity</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Settings</a></li>
+                            </ul>
+                            <div class="no-mobile dorak-container"><img class="img-fluid dorak" src="images/clownNoBG.png" alt="Dorak"></div>
+                        </div>
 
-                <p>Donec feugiat sit amet eros vitae ultricies. Donec sapien lectus, aliquet sed urna ac, posuere placerat libero. Aliquam malesuada et enim in tempus. Sed vel ex vehicula, maximus nunc vel, vehicula erat. Morbi aliquet quis nunc in hendrerit. Mauris placerat, nisl cursus efficitur finibus, tortor leo vestibulum nibh, porttitor cursus lectus odio pulvinar ante. Ut nec sapien varius, suscipit justo vel, aliquam tellus. Nullam nec nisl id sapien luctus viverra sit amet ac nunc.</p>
-                
-                <!-- <p>Suspendisse vitae laoreet enim, at pellentesque purus. Phasellus auctor lectus vel feugiat sagittis. Curabitur nec ipsum ut libero consequat efficitur lacinia vitae dolor. Etiam a velit sollicitudin, blandit augue vel, lacinia libero. Ut interdum eros et pretium sodales. Nullam nec ante in massa facilisis tristique sit amet nec tortor. Cras sagittis erat augue, ullamcorper varius neque aliquet tristique. Praesent semper libero id cursus rhoncus. Proin a venenatis arcu. Curabitur vulputate neque at nunc pulvinar, vel vehicula neque sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>--></p>
-                </div></div></span> 
-          </div>
-        </div>
-       </div>
-        <div id="buttonsPane" class="buttons-pane">
-            <!-- Buttons Go here -->
-            <div class="ctaBtns">
-            <a href="business.html"><button class="ctaBtn"><img src="images/ShowBusiness2.png" alt="Click Here to get the Business" aria-label="The Business" class="img-fluid"><br><p>The Business</p></button></a>
-            <a href="blog.html"><button class="ctaBtn"><img src="images/CourtOrderedBlog2.png" alt="The Court Ordered Blog" class="img-fluid" aria-label="Court Ordered Blog"><br><p>Court Ordered Blog</p></button></a>
-            <a href="writing.html"><button class="ctaBtn"><img src="images/WritingRoom2.png" alt="The Writing Room" class="img-fluid" aria-label="The Writing Room"><br><p>The Writing Room</p></button></a>
+                        <div class="screen">
+                            <div class="navbar"></div>
+                            <div clas="list">
+                                <div class="item">
+                                    <div class="img"></div>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <div class="item">
+                                    <div class="img"></div>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <div class="item">
+                                    <div class="img"></div>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="burger">
+                                <div class="x"></div>
+                                <div class="y"></div>
+                                <div class="z"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cententPane" class="content-pane">
+                        <!-- Content Goes Here -->
+                        <div class="row">
+                            <span class="col character"><img src="images/Bubble-ishus.png" alt="This is Bubble-ishus"></span><span class="col"><div class="AboutBox"><div class="about-text"><h1 class="clown-text">About Us</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare leo vel aliquet congue. Cras vulputate nunc non venenatis tincidunt. Suspendisse ornare molestie arcu sit amet varius. Sed leo eros, accumsan vitae vulputate vitae, blandit eget massa. Pellentesque mattis suscipit libero, sit amet posuere felis dapibus at. Vivamus dignissim mauris sit amet diam vehicula ornare. Aenean vitae condimentum lorem. Nulla eu accumsan eros, nec pretium mauris. Aliquam purus velit, porttitor et nibh a, suscipit faucibus nunc. Cras in magna dui. Fusce congue tortor vitae efficitur dictum.
+        
+                        <p>Donec feugiat sit amet eros vitae ultricies. Donec sapien lectus, aliquet sed urna ac, posuere placerat libero. Aliquam malesuada et enim in tempus. Sed vel ex vehicula, maximus nunc vel, vehicula erat. Morbi aliquet quis nunc in hendrerit. Mauris placerat, nisl cursus efficitur finibus, tortor leo vestibulum nibh, porttitor cursus lectus odio pulvinar ante. Ut nec sapien varius, suscipit justo vel, aliquam tellus. Nullam nec nisl id sapien luctus viverra sit amet ac nunc.</p>
+                        
+                        <!-- <p>Suspendisse vitae laoreet enim, at pellentesque purus. Phasellus auctor lectus vel feugiat sagittis. Curabitur nec ipsum ut libero consequat efficitur lacinia vitae dolor. Etiam a velit sollicitudin, blandit augue vel, lacinia libero. Ut interdum eros et pretium sodales. Nullam nec ante in massa facilisis tristique sit amet nec tortor. Cras sagittis erat augue, ullamcorper varius neque aliquet tristique. Praesent semper libero id cursus rhoncus. Proin a venenatis arcu. Curabitur vulputate neque at nunc pulvinar, vel vehicula neque sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>--></p>
+                        </div></div></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="buttonsPane" class="buttons-pane">
+                <!-- Buttons Go here -->
+                <div class="ctaBtns">
+                    <a href="business.html"><button class="ctaBtn"><img src="images/ShowBusiness2.png" alt="Click Here to get the Business" aria-label="The Business" class="img-fluid"><br><p>The Business</p></button></a>
+                    <a href="blog.html"><button class="ctaBtn"><img src="images/CourtOrderedBlog2.png" alt="The Court Ordered Blog" class="img-fluid" aria-label="Court Ordered Blog"><br><p>Court Ordered Blog</p></button></a>
+                    <a href="writing.html"><button class="ctaBtn"><img src="images/WritingRoom2.png" alt="The Writing Room" class="img-fluid" aria-label="The Writing Room"><br><p>The Writing Room</p></button></a>
+                </div>
+            </div>
+            <div id="slideshow" class="Slideshow-pane">
+                <!-- Slideshow -->
+                <!-- <img class="img-fluid slide-img" src="images/shoes_and_suitcase.jpg" alt="1">
+            <img class="img-fluid slide-img" src="images/shoes_and_suitcase.jpg" alt="2">
+            <img class="img-fluid slide-img" src="images/shoes_and_suitcase.jpg" alt="3"> -->
+
+            </div>
+            <div id="footer" class="footer-pane">
+                <!-- Footer Pane -->
+                I am the footer
             </div>
         </div>
-        <div id="slideshow" class="Slideshow-pane">
-            <!-- Slideshow -->
-            <img class ="img-fluid slide-img" src="images/shoes_and_suitcase.jpg" alt="1">
-            <img class ="img-fluid slide-img" src="images/shoes_and_suitcase.jpg" alt="2">
-            <img class ="img-fluid slide-img" src="images/shoes_and_suitcase.jpg" alt="3">
-           
-        </div>
-        <div id="footer" class="footer-pane">
-            <!-- Footer Pane -->
-            I am the footer
-        </div>
     </div>
-    <script language="JavaScript" src="js/frontend.js" ></script>
+    <!-- <script language="JavaScript" src="js/frontend.js"></script> -->
 </body>
+
 </html>
