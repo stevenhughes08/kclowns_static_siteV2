@@ -3,14 +3,16 @@
 
 
 // Bars menu
-fuction showHideMenu() {
-    const burger = document.getElementById("burgerBtn");
-    if (burger.style.display === "none") {
-        burger.style.display = "block";
-    } else {
-        burger.style.display = "none";
-    }
-}
+// fuction showHideMenu() {
+//     const burger = document.getElementById("burgerBtn");
+//     if (menuPane.style.display === "none") {
+//         menuPane.style.display = "block";
+//     } else {
+//         menuPane.style.display = "none";
+//     }
+// }
+
+
 
 
 

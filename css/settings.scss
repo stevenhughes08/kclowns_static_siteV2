@@ -2,6 +2,7 @@
 $primary: #ff0000;
 $primary-light: lighten($primary, 25%);
 $primary-dark: darken($primary, 25%);
+$secondary: #222;
 $button-color:lighten($primary, 25);
 $button-color-hover: darken(whitesmoke, 20);
 $clown-header-font: 'Indie Flower',
@@ -32,19 +33,20 @@ $breakpoints: ( sm: 768px, md: 992px, lg: 1200px, ) !default;
     }
 }
 
-// @mixin nav-button{
-//     a{ 
-//         background-color:none;
-//         color: $primary;
-//         &:hover {
-//             color: #fff;
-//             stroke: 2px $primary;
-//         }
-//         &:visited{
-//             color: purple;
-//         }
-//     }
-// }
+@mixin nav-button {
+    a {
+        background-color: none;
+        color: $primary;
+        &:hover {
+            color: #fff;
+            stroke: 2px $primary;
+        }
+        &:visited {
+            color: purple;
+        }
+    }
+}
+
 @mixin clown-cta-buttons {
     .ctaBtns {
         margin: 1% 5% 1% 5%;
