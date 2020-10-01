@@ -21,8 +21,9 @@
     border-bottom: 4px $primary-light solid;
 }
 
-.hamburgerBtn {
+.hamburger-button {
     i {
+        margin-top: 7px;
         color: $button-color-hover;
         position: absolute;
         top: 3%;
@@ -53,6 +54,7 @@
 
 .top-pane-wrapper {
     // margin-top: -30px;
+    padding-top: 25px;
     -webkit-transform: skewY(1deg);
     -moz-transform: skewY(1deg);
     -ms-transform: skewY(1deg);
@@ -61,7 +63,8 @@
 }
 
 .header-top {
-    background-color: #222;
+    background-color: lighten($secondary, 20);
+    padding: 5px;
 }
 
 .AboutBox {

@@ -18,7 +18,8 @@
   border-bottom: 4px #ff8080 solid;
 }
 
-.hamburgerBtn i {
+.hamburger-button i {
+  margin-top: 7px;
   color: #c2c2c2;
   position: absolute;
   top: 3%;
@@ -26,7 +27,7 @@
   font-size: 1.65rem;
   color: white;
 }
-.hamburgerBtn i:hover {
+.hamburger-button i:hover {
   color: #ff0000;
   transition: 0.5s;
 }
@@ -46,6 +47,7 @@
 }
 
 .top-pane-wrapper {
+  padding-top: 25px;
   -webkit-transform: skewY(1deg);
   -moz-transform: skewY(1deg);
   -ms-transform: skewY(1deg);
@@ -54,7 +56,8 @@
 }
 
 .header-top {
-  background-color: #222;
+  background-color: #555555;
+  padding: 5px;
 }
 
 .AboutBox {
