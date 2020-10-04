@@ -60,7 +60,8 @@
   padding: 5px;
 }
 
-.AboutBox {
+.AboutBox,
+.fb-box {
   padding: 20px;
 }
 
@@ -89,19 +90,22 @@
   opacity: 80%;
 }
 
-.about-text {
+.about-text,
+.fb-content {
   background-color: white;
   opacity: 78%;
   padding: 20px;
   border-radius: 10px;
   transform: rotate(-1deg) skewY(1deg);
 }
-.about-text .clown-text {
+.about-text .clown-text,
+.fb-content .clown-text {
   font-family: "Indie Flower", cursive;
   text-align: center;
   color: #ff0000;
 }
-.about-text .clown-text p {
+.about-text .clown-text p,
+.fb-content .clown-text p {
   transform: rotate(-10deg);
 }
 
@@ -240,6 +244,20 @@ body {
   background-size: cover;
   background-position: center;
   padding: 500px;
+}
+
+.fb-page {
+  background-color: rgba(255, 255, 255, 0.42);
+  padding: 20px;
+  border-radius: 30px;
+  align-content: center;
+}
+.fb-page ._1dro ._1drp {
+  color: #ff0000;
+  font-family: "Indie Flower", cursive !important;
+}
+.fb-page span {
+  background-color: none;
 }
 
 /*# sourceMappingURL=custom.css.map */

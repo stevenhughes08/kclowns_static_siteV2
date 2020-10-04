@@ -67,7 +67,8 @@
     padding: 5px;
 }
 
-.AboutBox {
+.AboutBox,
+.fb-box {
     padding: 20px;
 }
 
@@ -96,7 +97,8 @@
     // flex-direction: row-reverse;
 }
 
-.about-text {
+.about-text,
+.fb-content {
     background-color: white;
     opacity: 78%;
     padding: 20px;
@@ -200,6 +202,20 @@ body {
     background-size: cover;
     background-position: center;
     padding: 500px;
+}
+
+.fb-page {
+    background-color: rgba(255, 255, 255, .42);
+    padding: 20px;
+    border-radius: 30px;
+    align-content: center;
+    ._1dro ._1drp {
+        color: $primary;
+        font-family: $clown-header-font !important;
+    }
+    span {
+        background-color: none;
+    }
 }
 
 // .Slideshow-pane{
